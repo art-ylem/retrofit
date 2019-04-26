@@ -1,0 +1,34 @@
+package com.example.myretrofit.postInformation;
+
+public class Source
+{
+    private String name;
+
+    private String link;
+
+    public String getName ()
+    {
+        return name;
+    }
+
+    public void setName (String name)
+    {
+        this.name = name;
+    }
+
+    public String getLink ()
+    {
+        return link;
+    }
+
+    public void setLink (String link)
+    {
+        this.link = link;
+    }
+
+    @Override
+    public String toString()
+    {
+        return "ClassPojo [name = "+name+", link = "+link+"]";
+    }
+}
